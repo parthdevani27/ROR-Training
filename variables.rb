@@ -25,7 +25,7 @@ third.total_no_of_states()
 fourth=States.new("Pondicherry")   
 fourth.total_no_of_states()  
 fourth.display()
-#global variables
+#global
 $global_var = "Ruby"   
 class One   
   def display   
