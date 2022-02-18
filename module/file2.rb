@@ -1,8 +1,8 @@
-  
-module Novel   
-   total = 123   
-   read = 25   
-   def Novel.fiction(left)   
-   # ...   
-   end   
-end  
+
+module Moral
+   VERY_BAD = 0
+   BAD = 1
+   def Moral.sin(badness)
+      puts "called Moral"
+   end
+end

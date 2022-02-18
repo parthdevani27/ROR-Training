@@ -90,5 +90,17 @@ catch :quitRequested do
    # ..   
    # process information   
 end   
+puts "===="
 
+begin  
+   puts 'I am before the raise.'  
+   raise 'An error has occurred.'
+   a = 1/0 
+   puts 'I am after the raise.'  
+rescue   ZeroDivisionError
+   puts 'I am rescued.'  
+ else 
+  puts 'no rescue'
+end  
+puts 'I am after the begin block.'  
 

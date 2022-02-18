@@ -1,9 +1,10 @@
-module Library   
-   num_of_books = 300   
-   def Library.fiction(120)   
-   # ..   
-   end   
-   def Library.horror(180)   
-   # ..   
-   end   
-end  
+module Trig
+   PI = 3.141592654
+   def Trig.sin(x)
+      puts "called Trig.sin("
+      
+   end
+   def Trig.cos(x)
+      puts "Trig.cos"
+   end
+end
